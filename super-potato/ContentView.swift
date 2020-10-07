@@ -2,8 +2,6 @@
 //  ContentView.swift
 //  super-potato
 //
-//  Created by Кристина Перегудова on 07.10.2020.
-//
 
 import SwiftUI
 
