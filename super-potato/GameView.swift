@@ -6,13 +6,14 @@
 import SwiftUI
 
 struct GameView: View {
-  @State private var count = 0
+  @State private var score = 0
   @State private var clock = true
   @State private var radius: CGFloat = 125.0
   @State private var angle: CGFloat = 0.0
   @State private var speed: CGFloat = 0.15
   @State private var blockSpeed: CGFloat = 15.0
   @State var coordBlock: CGPoint = CGPoint(x: 0.0, y: 0.0)
+  @State var center: CGPoint = CGPoint(x: 0.0, y: 0.0)
   
   let timer = Timer.publish(every: 0.1, on: .current, in: .common).autoconnect()
 
@@ -21,9 +22,9 @@ struct GameView: View {
       ZStack {
         Color("bg").edgesIgnoringSafeArea(.all)
         VStack {
-          Text("\(count)")
+          Text("\(score)")
+            .fontWeight(.bold)
             .font(.system(size: 64))
-            .bold()
             .foregroundColor(.white)
             .padding()
           Spacer()
@@ -46,8 +47,11 @@ struct GameView: View {
             
             BlockView(coord: self.coordBlock)
               .onAppear {
-                coordBlock = CGPoint(x: -10, y: CGFloat.random(in: (UIScreen.main.bounds.height/2 - 100)..<(UIScreen.main.bounds.height/2 + 100)))
+                coordBlock = CGPoint(x: -10, y: CGFloat.random(in: (geo.size.height/2 - radius)..<(geo.size.height/2 + radius)))
               }
+            PrizeView()
+              .position(x: coordBlock.x, y: coordBlock.y)
+              
           }
         }
       }
@@ -73,7 +77,7 @@ struct GameView: View {
     withAnimation {
       coordBlock.x += blockSpeed
     }
-    if coordBlock.x > UIScreen.main.bounds.width + 100 {
+    if coordBlock.x > UIScreen.main.bounds.width + 200 {
       coordBlock = CGPoint(x: -50, y: CGFloat.random(in: (UIScreen.main.bounds.height/2 - 100)..<(UIScreen.main.bounds.height/2 + 100)))
     }
   }
