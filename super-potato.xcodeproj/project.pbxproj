@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		CAABB877253437E600768E26 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAABB876253437E600768E26 /* GameView.swift */; };
+		CAABB87A25343D3500768E26 /* BlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAABB87925343D3500768E26 /* BlockView.swift */; };
 		CAF6738F252DEE6400615655 /* super_potatoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF6738E252DEE6400615655 /* super_potatoApp.swift */; };
-		CAF67391252DEE6400615655 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF67390252DEE6400615655 /* ContentView.swift */; };
 		CAF67393252DEE6B00615655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF67392252DEE6B00615655 /* Assets.xcassets */; };
 		CAF67396252DEE6B00615655 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF67395252DEE6B00615655 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CAABB876253437E600768E26 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		CAABB87925343D3500768E26 /* BlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockView.swift; sourceTree = "<group>"; };
 		CAF6738B252DEE6400615655 /* super-potato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "super-potato.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF6738E252DEE6400615655 /* super_potatoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = super_potatoApp.swift; sourceTree = "<group>"; };
-		CAF67390252DEE6400615655 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CAF67392252DEE6B00615655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAF67395252DEE6B00615655 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CAF67397252DEE6B00615655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				CAF6738E252DEE6400615655 /* super_potatoApp.swift */,
-				CAF67390252DEE6400615655 /* ContentView.swift */,
 				CAF67392252DEE6B00615655 /* Assets.xcassets */,
 				CAF67397252DEE6B00615655 /* Info.plist */,
 				CAF67394252DEE6B00615655 /* Preview Content */,
 				CAABB876253437E600768E26 /* GameView.swift */,
+				CAABB87925343D3500768E26 /* BlockView.swift */,
 			);
 			path = "super-potato";
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAF67391252DEE6400615655 /* ContentView.swift in Sources */,
+				CAABB87A25343D3500768E26 /* BlockView.swift in Sources */,
 				CAABB877253437E600768E26 /* GameView.swift in Sources */,
 				CAF6738F252DEE6400615655 /* super_potatoApp.swift in Sources */,
 			);
