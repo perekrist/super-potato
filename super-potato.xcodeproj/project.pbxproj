@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		CA0A395025344FFF00DD7E4A /* PrizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0A394F25344FFF00DD7E4A /* PrizeView.swift */; };
+		CA308EB22546C78C00FBF017 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA308EB12546C78C00FBF017 /* AnimationView.swift */; };
+		CA5223DC2567DC1800F972E0 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5223DB2567DC1800F972E0 /* SwiftUIView.swift */; };
+		CA5223DF2567E07100F972E0 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5223DE2567E07100F972E0 /* Task.swift */; };
+		CA60F8A0253B30AB00BF30F3 /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60F89F253B30AB00BF30F3 /* CardsView.swift */; };
 		CAABB877253437E600768E26 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAABB876253437E600768E26 /* GameView.swift */; };
 		CAABB87A25343D3500768E26 /* BlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAABB87925343D3500768E26 /* BlockView.swift */; };
 		CAF6738F252DEE6400615655 /* super_potatoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF6738E252DEE6400615655 /* super_potatoApp.swift */; };
@@ -17,6 +21,10 @@
 
 /* Begin PBXFileReference section */
 		CA0A394F25344FFF00DD7E4A /* PrizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeView.swift; sourceTree = "<group>"; };
+		CA308EB12546C78C00FBF017 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		CA5223DB2567DC1800F972E0 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		CA5223DE2567E07100F972E0 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		CA60F89F253B30AB00BF30F3 /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
 		CAABB876253437E600768E26 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		CAABB87925343D3500768E26 /* BlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockView.swift; sourceTree = "<group>"; };
 		CAF6738B252DEE6400615655 /* super-potato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "super-potato.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +71,10 @@
 				CAABB876253437E600768E26 /* GameView.swift */,
 				CAABB87925343D3500768E26 /* BlockView.swift */,
 				CA0A394F25344FFF00DD7E4A /* PrizeView.swift */,
+				CA60F89F253B30AB00BF30F3 /* CardsView.swift */,
+				CA308EB12546C78C00FBF017 /* AnimationView.swift */,
+				CA5223DB2567DC1800F972E0 /* SwiftUIView.swift */,
+				CA5223DE2567E07100F972E0 /* Task.swift */,
 			);
 			path = "super-potato";
 			sourceTree = "<group>";
@@ -144,8 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA5223DF2567E07100F972E0 /* Task.swift in Sources */,
 				CAABB87A25343D3500768E26 /* BlockView.swift in Sources */,
+				CA5223DC2567DC1800F972E0 /* SwiftUIView.swift in Sources */,
+				CA60F8A0253B30AB00BF30F3 /* CardsView.swift in Sources */,
 				CAABB877253437E600768E26 /* GameView.swift in Sources */,
+				CA308EB22546C78C00FBF017 /* AnimationView.swift in Sources */,
 				CAF6738F252DEE6400615655 /* super_potatoApp.swift in Sources */,
 				CA0A395025344FFF00DD7E4A /* PrizeView.swift in Sources */,
 			);

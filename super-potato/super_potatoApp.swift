@@ -9,7 +9,7 @@ import SwiftUI
 struct super_potatoApp: App {
     var body: some Scene {
         WindowGroup {
-          GameView()
+          SwiftUIView()
         }
     }
 }
